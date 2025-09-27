@@ -6,23 +6,28 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <title>Jardim do Povo</title>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
 </head>
 <body>
     <div class="main">
         <div class="header">
             <a href="index.html"><h1>Jardim do povo</h1></a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             <div class="navbar">
-                <a href="#objetivo">Sobre o projeto</a>
-                <a href="#participe">Como participar</a>
-                <a href="#rede">Rede Cidadã</a>
-                <a href="mudas.html">Sobre as mudas</a>
+                <a href="#objetivo" onclick="toggleMenu()">Sobre o projeto</a>
+                <a href="#participe" onclick="toggleMenu()">Como participar</a>
+                <a href="#rede" onclick="toggleMenu()">Rede Cidadã</a>
+                <a href="mudas.html" onclick="toggleMenu()">Sobre as mudas</a>
             </div>
         </div>
         <div id="img">
             <div id="textoImg">
-                <p>Um projeto dos jovem</p>
-                <p>aprendizes da</p>
-                <p>Rede Cidadã</p>
+                <p>Um projeto dos jovem aprendizes da Rede Cidadã</p>
             </div>
         </div>
         <div id="objetivo">
@@ -53,7 +58,7 @@
             <div id="panfleto">
                 <p>&ensp;Depois de plantar não esqueça de colocar o panfleto do projeto para que mais pessoas possam conhecê-lo:</p>&ensp;
                 <a href="img/panfleto.jpg" download>
-                    <button>Baixar Imagem</button>
+                    <button>Baixar Panfleto</button>
                 </a>
             </div>
         </div>
