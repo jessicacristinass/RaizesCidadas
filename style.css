@@ -150,6 +150,8 @@
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
     background-color: #3a1d05;
     width: 100%;
     padding: 15px;
@@ -257,3 +259,4 @@
         margin-bottom: 300px;
     }
 }
+
