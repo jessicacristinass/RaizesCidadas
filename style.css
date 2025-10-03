@@ -19,8 +19,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5%;
     border-bottom: 2px solid #137F45;
+    background-color: #dddbcc;
+
+    .tituloLogo {
+        width: 150px; 
+        margin-left: 50px;
+    };
 
     a {
         color: #137F45;
@@ -152,6 +157,8 @@
 .footer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #3a1d05;
     width: 100%;
     padding: 15px;
@@ -201,6 +208,11 @@
     .header {
         font-size: 20px;
         padding: 10px;
+
+        .tituloLogo {
+            width: 100px;
+            margin-left: 10px;
+        };
     }
 
     .navbar {
@@ -208,7 +220,7 @@
         flex-direction: column;
         background-color: #fff;
         position: absolute;
-        top: 70px;
+        top: 120px;
         right: 0;
         width: 100%;
         padding: 10px;
@@ -258,5 +270,10 @@
         row-gap: 1%;
         margin-bottom: 300px;
     }
-}
 
+    .footer {
+        p {
+            font-size: 13px;
+        }
+    }
+}
