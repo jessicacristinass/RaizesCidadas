@@ -1,11 +1,9 @@
 <img
     alt="Imagem da tela inicial do site"
-    width="65%"
+    width="100%"
     style="display: flex; align-self: center"
     src="img/OGimage.jpg"
 />
-
----
 
 # 🌱 Raízes Cidadãs
 
